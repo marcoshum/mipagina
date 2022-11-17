@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.bodyy{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(230,237,166,1) 0%, rgba(255,136,0,1) 100%);
+}
+
+
+
+.fondo {
+    width: 500px;
+    height: 200px;
+}
+
+.ciudad {
+    height: 200px;
+    width: 400px;
+    
+}
+
+.napoli {
+    background-color: tomato;
+    text-align: center;
+}
+
+.maradona {
+    height: 200px;
+    width: 130px;
+}
+ 
+.somos {
+    background: wheat; ; padding:25px 35px 25px 35px ;  border-radius:0px;
+    display: flexbox;
+    text-align: center
+    }
+
+    ;
+    /* style="background: wheat; box-shadow: 0 0 10px 0 red; padding:25px 35px 25px 35px ; background-color:#80794f; border-radius:0px; "><section class="somos" > <div class="" style="font-size:17px;"></div>  */
+
+    .piza {
+        background: #eeee22; padding:20px; background-color:#eeee22; border-radius:0px; 
+    }
+
+	
+
+        .titulo {
+            display: row;
+            text-align: center;
+        }
+
+.portada {
+    background-color: tomato;
+    margin: 20px;
+    display: flex;
+    flex-flow: row;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.titulo {
+    display: block;
+    font-style: italic;   
+    background-image: url(../img/pizza-redonda.jpg);
+}
+
+
+.menu{
+    background-image: url(../img/490x_pizza-dia-mundial-mejores-ocu-istock.jpg);
+    
+}
+
+.menu ul li{
+    background-color: yellow;margin: 10px;padding: 10px; border-style: solid; display: inline-block ;
+    position: relative; }
+
+
+    
+
+   .ig {
+        background: rgb(236,255,63);
+    background: linear-gradient(90deg, rgba(236,255,63,1) 0%, rgba(200,0,255,1) 100%);
+    grid-area: ig;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    filter: drop-shadow(2px 2px 4px);
+    
+     
+        margin-bottom: 1%;
+    
+       }
+
+       .ig:hover{
+        box-shadow: 1px 1px  2px black;
+        transform: scale(1.1);
+    }
+
+        .producto{
+            background-color: rgb(165, 134, 42);
+            filter: drop-shadow(5px 5px 5px);
+            display: block;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 1%;
+        }
+
+        .history {
+            background-image: url(../img/pergamin.jpg);
+            font-style: italic;
+            
+        }
+
+        .antigua{
+            display: inline;
+            width: 400px;
+            height: 150px;
+        }
+
+        .pizzeria2 {
+            display: inline;
+            width: 400px;
+            height: 150px;
+            
+            margin-left: 10px;
+        }
+        .videohistoria {
+            margin-left: 10px;
+        }
+        
+
+        .arma {
+            display: inline-flexbox;
+            border-radius: 80px;
+            background-color: #eeee22;
+            border-style: double;
+            margin-top: 0;
+            margin-bottom: 1rem;
+            text-align: center;
+                }
+
+        .formulario {
+            text-align: center;
+        }
+
+        footer {
+            background-image: url(../img/490x_pizza-dia-mundial-mejores-ocu-istock.jpg);
+            display: block;
+            text-align: center;
+            font-family: 'Righteous';
+            font-size: 1rem;
+        }
+        .formulario {
+            background-image: url(../img/harina.jpg);
+            margin-top: -15px;
+        }
+        .ubi
+        {
+            grid-area: Seg;
+            margin: 2rem 0rem;
+            color: rgb(30, 28, 28);
+            font-family: 'Roboto', sans-serif;
+            font-size: 1rem;
+            text-align: center;
+            /*background-image: url(../img/ubi.jpg);
+            height: 150px;
+            margin-top: -15px; */
+            font-style: initial */
+        }
+
+        .buscanos{
+            grid-area: Seg;
+            margin: 2rem 0rem;
+            color: rgb(30, 28, 28);
+            font-family: 'Roboto', sans-serif;
+            font-size: 1rem;
+            text-decoration: underline;
+        }
+
+        .buscanos:hover{            
+            transform: skewY(-5deg);
+            transition: 2s;
+        }
+
+
+        .item-fixed {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            
+            
+        }
+        .menuu {
+            width: 50px;
+            height: 50px;
+            z-index: 100;
+        }
+
+        
+
+        .derechoss {
+            margin-top: 0px;
+        }
+
+
+        .btn-group{
+            display: inline;
+        }
+
+
+       .logo:hover{
+            box-shadow: 1px 1px  2px black;
+            transform: scale(0.88);
+        }
+
+
+        .menuu:hover{
+            box-shadow: 1px 1px  2px black;
+            transform: scale(1.15);
+        }
+
+        .partebaja{
+            display: inline-flex;
+        }
+
+        .pizasinfondo{
+            height: 10rem;
+                    }
+        .pizasinfondo:hover{            
+                    transform: rotate(360deg);
+                    transition: 2s;
+                }
+            /* media query */
+
+
+        @media screen and (max-width:1080px)
+         {
+        main{ display: grid;
+                
+                justify-content: space-around;
+            
+                        
+                }
+        .fondo{
+            display: none;
+        }
+        .logo{
+            display: inline-flex;
+        }   
+        .maradona{
+            display: none;
+        }
+        .ciudad{
+            display: inline-flex;
+        
+        float: right
+        
+        }
+        .conjunto{
+            display: flexbox;
+            flex-flow: row;
+        }
+        
+           
+    }
+
+    .encontra{
+        text-align: center;
+        font-style:italic;
+    }
+    
+
+    .rappi{
+        width: 13rem;
+    opacity: 90%;
+    display: inline-flex;
+    align-self: center;
+    top: -5rem;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-direction: alternate-reverse;
+    animation-name: RappiAnimation;
+    }
+
+    .separador {
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        grid-area: Sepa;
+        filter: drop-shadow(2px 2px 4px);
+    }
+    
+/* keyframes */
+
+@keyframes RappiAnimation {
+    to{
+        transform: scale(1);
+    }
+    from{
+        transform: scale(0.8);
+    } 
+    }
+
+        /* mediaquery 2 */
+
+        @media screen and (max-width:500px){
+        .ciudad{
+            display: none;
+        }
+        .logo{
+            display: flex;
+            width: 100%;
+        }
+        .partebaja{
+            display: grid;
+        }
+        .ig{
+            margin-top: -2%;
+        }
+        
+        .piza{
+            display: grid
+        }
+    }
+
+
+        /* pego el csshistoria acá */
+
+        .piza {
+            align-self: left;
+        }
+    
+    .mooza {
+        display: inline;
+    }
+    .lamooza { 
+        width: 400px;
+        height: 150px;
+        
+    }
+    .carousel-inner{
+        text-align: center;
+    }
+    
+    .napo {
+        display: inline;
+    }
+    
+    .lanapo {
+        width: 400px;
+        height: 150px;
+    }
+    
+    .fuga {
+        display: inline;
+    }
+    
+    .lafuga { 
+        width: 400px;
+        height: 150px;
+    }
+    
+    .jyq {
+        display: inline;
+    
+    }
+    
+    .lajym {
+        width: 400px;
+        height: 150px;
+    }
+    
+    .faina {
+        display: inline;
+    }
+    
+    .lafaina {
+        width: 400px;
+        height: 150px;
+    }
+
+    .galeria{
+        text-align: center;
+    }
